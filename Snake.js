@@ -2,7 +2,7 @@ let master;
 const GAME_DELAY = 200;
 
 function setup() {
-	createCanvas(600, 600).parent("sketch");
+	createCanvas(600, 600);
 
 	master = new Master(25);
 }
