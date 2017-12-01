@@ -17,17 +17,21 @@ function draw() {
 }
 
 function keyPressed() {
-	switch(keyCode) {
-	case LEFT_ARROW:
+	switch(key) {
+	case 'A':
+	case 'a':
 		master.setSnakeDir(LEFT);
 		break;
-	case RIGHT_ARROW:
+	case 'D':
+	case 'd':
 		master.setSnakeDir(RIGHT);
 		break;
-	case UP_ARROW:
+	case 'W':
+	case 'w':
 		master.setSnakeDir(UP);
 		break;
-	case DOWN_ARROW:
+	case 'S':
+	case 's':
 		master.setSnakeDir(DOWN);
 		break;
 	}
